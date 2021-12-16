@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <style> body {font-family: Helvetica, sans-serif;} </style>
+        <title>Register</title>
+        <meta charset="UTF-8"></meta>
+    </head>
+    <body>
+        <h1>Register</h1>
+
+        <form method="POST" action="/L3ST/registerMe">
+            Username <input type="text" name="username"/>
+            Password <input type="text" name="password"/>
+            <input type="hidden" name="action" value="register"/>
+            <input type="submit" value="Register"/>  
+        </form>
+    </body>
+</html>
